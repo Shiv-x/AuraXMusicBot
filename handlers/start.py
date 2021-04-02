@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-I am 𝗔𝘂𝗿𝗮𝗫𝗠𝘂𝘀𝗶𝗰𝗕𝗼𝘁 VC Music Player, an open-source bot that lets you play music in your Telegram groups.
-Maintained by @AuraX_Owner ❤
-For source code Join our support group @AuraXSupport.
+I am 𝗩𝗖𝗣𝗹𝗮𝘆𝗕𝗼𝘁 VC Music Player, an open-source bot that lets you play music in your Telegram groups.
+Maintained by @HEROGAMERS1 ❤
+For source code Join our support group @LaylaSupport.
 Use the buttons below to know more about me.
  </b>""",
       
@@ -22,23 +22,20 @@ Use the buttons below to know more about me.
             [
                 [
                     InlineKeyboardButton(
-                        "𝗖𝗠𝗗𝗦 ⚡️", url="https://telegra.ph/AuraXMusicBot---A-TELEGRAM-VC-MUSIC-PLAYER-BOT-03-28"
-                    ),
-                    InlineKeyboardButton(
-                        "𝗖𝗥𝗘𝗔𝗧𝗘𝗥⚡️", url="https://t.me/AuraX_Owner",
+                        "Command", url="https://telegra.ph/ĦŘØ-GΔΜŘ-04-02",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "𝗚𝗥𝗢𝗨𝗣 ⚡️", url="https://t.me/AuraXSupport"
+                        "👥 Group", url="https://t.me/LaylaSupport"
                     ),
                     InlineKeyboardButton(
-                        "𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ⚡️", url="https://t.me/AuraXUpdates"
+                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "𝗣𝗚𝗟𝗭𝗢𝗡𝗘 𝗖𝗛𝗔𝗧𝗚𝗥𝗢𝗨𝗣 ⚡️", url="https://t.me/PglZone"
+                        "Join ChatGroup", url="https://t.me/GIRLS_AND_BOYS_CHATTING"
                     )
                 ]
             ]
