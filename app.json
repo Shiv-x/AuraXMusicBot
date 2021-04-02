@@ -1,9 +1,9 @@
 {
-    "name": "✯𝗔𝘂𝗿𝗮𝗫𝗠𝘂𝘀𝗶𝗰𝗕𝗼𝘁✯",
-    "logo": "https://telegra.ph/file/55ba5a0244d6b9bac387e.png",
+    "name": "VCPlayBot",
+    "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/AuraXNetwork/AuraXMusicBot",
+    "repository": "https://github.com/QueenArzoo/VCPlayBot",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -25,6 +25,7 @@
         "SUDO_USERS": {
             "description": "Full-access users, counted as admin everywhere, seperated by space.",
             "required": true
+            "value": "797768146"
         },
         "DURATION_LIMIT": {
             "description": "In minutes!",
